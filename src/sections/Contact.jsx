@@ -12,7 +12,7 @@ export default function Contact() {
     {
       icon: <FaEnvelope />,
       label: "Email",
-      value: "guilherme.ruas@email.com",
+      value: "cardinalliruas@gmail.com",
       link: "mailto:cardinalliruas@gmail.com",
       color: "#EA4335"
     },
@@ -77,7 +77,7 @@ export default function Contact() {
             <div className="additional-info">
               <div className="info-item">
                 <FaMapMarkerAlt className="info-icon" />
-                <span>São Paulo, Brasil</span>
+                <span>Campinas-SP, Brasil</span>
               </div>
               <div className="info-item">
                 <FaClock className="info-icon" />

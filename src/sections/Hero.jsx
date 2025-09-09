@@ -20,10 +20,6 @@ export default function Hero() {
           <FaCode className="title-icon" />
           <FaRocket className="title-icon" />
         </div>
-        <div className="title-icons">
-          <FaCode className="title-icon" />
-          <FaRocket className="title-icon" />
-        </div>
         <h2>Desenvolvedor Full Stack</h2>
         <p className="hero-description">
           Apaixonado por tecnologia e sempre em busca de novos desafios. 
