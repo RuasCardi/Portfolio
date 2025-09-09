@@ -13,14 +13,14 @@ export default function Contact() {
       icon: <FaEnvelope />,
       label: "Email",
       value: "guilherme.ruas@email.com",
-      link: "mailto:guilherme.ruas@email.com",
+      link: "mailto:cardinalliruas@gmail.com",
       color: "#EA4335"
     },
     {
       icon: <FaWhatsapp />,
       label: "WhatsApp",
       value: "Vamos conversar!",
-      link: "https://wa.me/5511999999999",
+      link: "https://wa.me/5519982091708",
       color: "#25D366"
     },
     {
@@ -101,7 +101,7 @@ export default function Contact() {
                   <FaEnvelope /> Enviar Email
                 </a>
                 <a 
-                  href="https://wa.me/5511999999999" 
+                  href="https://wa.me/5519982091708" 
                   target="_blank"
                   rel="noopener noreferrer"
                   className="cta-button secondary"
