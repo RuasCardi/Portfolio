@@ -20,6 +20,10 @@ export default function Hero() {
           <FaCode className="title-icon" />
           <FaRocket className="title-icon" />
         </div>
+        <div className="title-icons">
+          <FaCode className="title-icon" />
+          <FaRocket className="title-icon" />
+        </div>
         <h2>Desenvolvedor Full Stack</h2>
         <p className="hero-description">
           Apaixonado por tecnologia e sempre em busca de novos desafios. 
@@ -46,14 +50,14 @@ export default function Hero() {
           </a>
           
           <a
-            href="mailto:seu.email@gmail.com"
+            href="mailto:cardinalliruas@gmail.com"
             className="social-btn email"
           >
             <FaEnvelope /> Email
           </a>
           
           <a
-            href="https://wa.me/5511999999999"
+            href="https://wa.me/5519982091708"
             target="_blank"
             rel="noopener noreferrer"
             className="social-btn whatsapp"
