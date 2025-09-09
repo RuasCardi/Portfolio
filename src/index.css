@@ -5,6 +5,16 @@
   box-sizing: border-box;
 }
 
+/* Forçar centralização global */
+.about p,
+.projects p,
+.contact p,
+section p {
+  text-align: center !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
 :root {
   --dark-purple: #0f0417;
   --medium-purple: #1a0b2e;
@@ -83,9 +93,9 @@ p {
   font-size: 1.1rem;
   color: var(--text-secondary);
   line-height: 1.8;
-  text-align: center;
+  text-align: center !important;
   max-width: 800px;
-  margin: 0 auto;
+  margin: 0 auto !important;
 }
 
 /* Hero Section */
@@ -279,24 +289,26 @@ p {
   margin: 2rem 0;
   backdrop-filter: blur(10px);
   border: 1px solid rgba(166, 99, 204, 0.2);
+  text-align: center !important;
 }
 
 .about-content {
   display: grid;
   gap: 3rem;
   margin-top: 2rem;
-  text-align: center;
+  text-align: center !important;
+  justify-items: center !important;
 }
 
 .about-text {
-  text-align: center;
+  text-align: center !important;
   max-width: 800px;
-  margin: 0 auto;
+  margin: 0 auto !important;
 }
 
 .about-text p {
   margin-bottom: 1.5rem;
-  text-align: center;
+  text-align: center !important;
   font-size: 1.1rem;
   line-height: 1.8;
 }
@@ -372,10 +384,11 @@ p {
   border-radius: 20px;
   margin: 2rem 0;
   backdrop-filter: blur(10px);
+  text-align: center !important;
 }
 
 .projects-subtitle {
-  text-align: center;
+  text-align: center !important;
   color: var(--text-secondary);
   font-size: 1.1rem;
   margin-bottom: 3rem;
@@ -406,6 +419,8 @@ p {
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
+  text-align: center !important;
+  align-items: center !important;
 }
 
 .project-card::before {
@@ -461,6 +476,7 @@ p {
   line-height: 1.6;
   margin: 0;
   flex-grow: 1;
+  text-align: center !important;
 }
 
 .project-tech h4 {
@@ -468,12 +484,14 @@ p {
   font-size: 1rem;
   margin: 0 0 0.8rem 0;
   font-weight: 600;
+  text-align: center !important;
 }
 
 .tech-icons {
   display: flex;
   gap: 1rem;
   flex-wrap: wrap;
+  justify-content: center !important;
 }
 
 .tech-icon {
@@ -674,6 +692,7 @@ p {
   color: var(--text-secondary);
   margin-bottom: 2rem;
   line-height: 1.6;
+  text-align: center !important;
 }
 
 .cta-buttons {
