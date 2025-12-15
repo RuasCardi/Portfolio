@@ -26,8 +26,8 @@ export default function Contact() {
     {
       icon: <FaLinkedin />,
       label: "LinkedIn",
-      value: "guilherme-ruas",
-      link: "https://linkedin.com/in/guilherme-ruas",
+      value: "guilherme-cardinalli",
+      link: "https://www.linkedin.com/in/guilherme-cardinalli-b28634363/",
       color: "#0077B5"
     },
     {

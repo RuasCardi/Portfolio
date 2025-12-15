@@ -37,7 +37,7 @@ export default function Hero() {
           </a>
           
           <a
-            href="https://linkedin.com/in/seu-linkedin"
+            href="https://www.linkedin.com/in/guilherme-cardinalli-b28634363/"
             target="_blank"
             rel="noopener noreferrer"
             className="social-btn linkedin"

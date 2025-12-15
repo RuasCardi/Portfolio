@@ -18,43 +18,85 @@ export default function Projects() {
   const projects = [
     {
       id: 1,
-      title: "E-Commerce Moderno",
-      description: "Plataforma completa de e-commerce com carrinho de compras, sistema de pagamento e dashboard administrativo.",
+      title: "F1 App",
+      description: "Aplicação interativa sobre Fórmula 1 com informações em tempo real, estatísticas e acompanhamento de corridas.",
       technologies: [
         { icon: <FaReact />, name: "React", color: "#61DAFB" },
-        { icon: <SiTypescript />, name: "TypeScript", color: "#3178C6" },
-        { icon: <FaNodeJs />, name: "Node.js", color: "#339933" },
-        { icon: <SiMongodb />, name: "MongoDB", color: "#47A248" }
+        { icon: <FaJs />, name: "JavaScript", color: "#F7DF1E" },
+        { icon: <SiVite />, name: "Vite", color: "#646CFF" },
+        { icon: <FaDatabase />, name: "API", color: "#FF6B6B" }
       ],
-      github: "https://github.com/RuasCardi",
-      demo: "https://seu-projeto-demo.vercel.app",
+      github: "https://github.com/RuasCardi/F1app",
+      demo: null,
       status: "Concluído"
     },
     {
       id: 2,
-      title: "Dashboard Analytics",
-      description: "Dashboard interativo para visualização de dados em tempo real com gráficos dinâmicos e filtros avançados.",
+      title: "Solar",
+      description: "Projeto sobre energia solar com informações sobre sustentabilidade, cálculos de eficiência e visualizações interativas.",
       technologies: [
         { icon: <FaReact />, name: "React", color: "#61DAFB" },
+        { icon: <FaJs />, name: "JavaScript", color: "#F7DF1E" },
         { icon: <SiTailwindcss />, name: "Tailwind", color: "#06B6D4" },
-        { icon: <SiVite />, name: "Vite", color: "#646CFF" },
-        { icon: <FaDatabase />, name: "API", color: "#FF6B6B" }
+        { icon: <SiVite />, name: "Vite", color: "#646CFF" }
       ],
-      github: "https://github.com/RuasCardi",
-      demo: "https://seu-dashboard-demo.vercel.app",
-      status: "Em Desenvolvimento"
+      github: "https://github.com/RuasCardi/Solar",
+      demo: null,
+      status: "Concluído"
     },
     {
       id: 3,
-      title: "API RESTful",
-      description: "API robusta com autenticação JWT, documentação Swagger e testes automatizados para aplicações web.",
+      title: "Markup",
+      description: "Editor de texto em Markdown com preview em tempo real, suporte a sintaxe destacada e exportação de documentos.",
       technologies: [
-        { icon: <FaNodeJs />, name: "Node.js", color: "#339933" },
-        { icon: <SiExpress />, name: "Express", color: "#000000" },
-        { icon: <SiMongodb />, name: "MongoDB", color: "#47A248" },
-        { icon: <SiTypescript />, name: "TypeScript", color: "#3178C6" }
+        { icon: <FaReact />, name: "React", color: "#61DAFB" },
+        { icon: <SiTypescript />, name: "TypeScript", color: "#3178C6" },
+        { icon: <FaJs />, name: "JavaScript", color: "#F7DF1E" },
+        { icon: <SiVite />, name: "Vite", color: "#646CFF" }
       ],
-      github: "https://github.com/RuasCardi",
+      github: "https://github.com/RuasCardi/markup",
+      demo: null,
+      status: "Concluído"
+    },
+    {
+      id: 4,
+      title: "Hamburgueria Landing",
+      description: "Landing page moderna para hamburgueria com design atraente, menu interativo e seção de pedidos online.",
+      technologies: [
+        { icon: <FaReact />, name: "React", color: "#61DAFB" },
+        { icon: <FaJs />, name: "JavaScript", color: "#F7DF1E" },
+        { icon: <SiTailwindcss />, name: "Tailwind", color: "#06B6D4" },
+        { icon: <SiVite />, name: "Vite", color: "#646CFF" }
+      ],
+      github: "https://github.com/RuasCardi/hamburgueria-landing",
+      demo: null,
+      status: "Concluído"
+    },
+    {
+      id: 5,
+      title: "Emotion",
+      description: "Aplicação para análise e reconhecimento de emoções com interface intuitiva e visualizações dinâmicas.",
+      technologies: [
+        { icon: <FaReact />, name: "React", color: "#61DAFB" },
+        { icon: <FaJs />, name: "JavaScript", color: "#F7DF1E" },
+        { icon: <SiVite />, name: "Vite", color: "#646CFF" },
+        { icon: <FaDatabase />, name: "API", color: "#FF6B6B" }
+      ],
+      github: "https://github.com/RuasCardi/Emotion",
+      demo: null,
+      status: "Concluído"
+    },
+    {
+      id: 6,
+      title: "Polaroid Frame",
+      description: "Ferramenta criativa para aplicar efeitos de moldura estilo polaroid em imagens com filtros personalizáveis.",
+      technologies: [
+        { icon: <FaReact />, name: "React", color: "#61DAFB" },
+        { icon: <FaJs />, name: "JavaScript", color: "#F7DF1E" },
+        { icon: <SiVite />, name: "Vite", color: "#646CFF" },
+        { icon: <SiTailwindcss />, name: "Tailwind", color: "#06B6D4" }
+      ],
+      github: "https://github.com/RuasCardi/polaroid-frame",
       demo: null,
       status: "Concluído"
     }

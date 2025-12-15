@@ -38,8 +38,8 @@ body {
 }
 
 section {
-  padding: 5rem 2rem;
-  max-width: 1200px;
+  padding: 6rem 2rem;
+  max-width: 1400px;
   margin: 0 auto;
   position: relative;
 }
@@ -384,24 +384,28 @@ p {
 .about {
   background: rgba(26, 11, 46, 0.3);
   border-radius: 20px;
-  margin: 2rem 0;
+  margin: 2rem auto;
   backdrop-filter: blur(10px);
   border: 1px solid rgba(166, 99, 204, 0.2);
   text-align: center !important;
+  width: 100%;
 }
 
 .about-content {
-  display: grid;
+  display: flex;
+  flex-direction: column;
   gap: 3rem;
   margin-top: 2rem;
   text-align: center !important;
-  justify-items: center !important;
+  align-items: center !important;
+  justify-content: center !important;
 }
 
 .about-text {
   text-align: center !important;
   max-width: 800px;
   margin: 0 auto !important;
+  width: 100%;
 }
 
 .about-text p {
@@ -414,6 +418,11 @@ p {
 .about-text strong {
   color: var(--bright-purple);
   font-weight: 700;
+}
+
+.skills-section {
+  width: 100%;
+  text-align: center;
 }
 
 .skills-section h3 {
@@ -518,9 +527,10 @@ p {
 .projects {
   background: rgba(15, 4, 23, 0.5);
   border-radius: 20px;
-  margin: 2rem 0;
+  margin: 2rem auto;
   backdrop-filter: blur(10px);
   text-align: center !important;
+  width: 100%;
 }
 
 .projects-subtitle {
@@ -534,10 +544,10 @@ p {
 .project-grid {
   display: grid;
   gap: 2rem;
-  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
   margin-top: 3rem;
   justify-items: center;
-  max-width: 1200px;
+  max-width: 1400px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -557,6 +567,8 @@ p {
   gap: 1.5rem;
   text-align: center !important;
   align-items: center !important;
+  width: 100%;
+  max-width: 400px;
 }
 
 .project-card::before {
@@ -584,10 +596,12 @@ p {
 
 .project-header {
   display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   gap: 1rem;
+  width: 100%;
+  text-align: center;
 }
 
 .project-card h3 {
@@ -613,6 +627,11 @@ p {
   margin: 0;
   flex-grow: 1;
   text-align: center !important;
+}
+
+.project-tech {
+  width: 100%;
+  text-align: center;
 }
 
 .project-tech h4 {
@@ -645,6 +664,9 @@ p {
   display: flex;
   gap: 1rem;
   margin-top: auto;
+  width: 100%;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .project-link {
@@ -689,9 +711,10 @@ p {
 .contact {
   background: rgba(26, 11, 46, 0.3);
   border-radius: 20px;
-  margin: 2rem 0;
+  margin: 2rem auto;
   backdrop-filter: blur(10px);
   border: 1px solid rgba(166, 99, 204, 0.2);
+  width: 100%;
 }
 
 .contact-content {
@@ -896,6 +919,12 @@ p {
 }
 
 /* Responsividade */
+@media (max-width: 1024px) {
+  .project-grid {
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  }
+}
+
 @media (max-width: 768px) {
   h1 {
     font-size: 2.5rem;
@@ -903,6 +932,10 @@ p {
   
   h2 {
     font-size: 2rem;
+  }
+  
+  p {
+    font-size: 1rem;
   }
   
   .skills-grid {
@@ -932,8 +965,9 @@ p {
     align-items: center;
   }
   
-  .social-buttons a {
-    width: 250px;
+  .social-btn {
+    width: 100%;
+    max-width: 280px;
     justify-content: center;
   }
   
@@ -943,6 +977,56 @@ p {
   
   .project-grid {
     grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+  
+  .project-card {
+    max-width: 100%;
+  }
+  
+  .about-content {
+    gap: 2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 2rem;
+  }
+  
+  h2 {
+    font-size: 1.5rem;
+  }
+  
+  .hero h2 {
+    font-size: 1.3rem;
+  }
+  
+  .hero-description {
+    font-size: 1rem;
+  }
+  
+  .social-btn {
+    padding: 0.8rem 1.5rem;
+    font-size: 0.9rem;
+  }
+  
+  section {
+    padding: 2rem 1rem;
+  }
+  
+  .project-card {
+    padding: 1.5rem;
+  }
+  
+  .skill-card {
+    min-width: 80px;
+    max-width: 100px;
+    padding: 0.8rem 0.5rem;
+  }
+  
+  .skill-icon {
+    font-size: 1.8rem;
   }
 }
 
