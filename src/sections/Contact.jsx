@@ -42,7 +42,7 @@ export default function Contact() {
   return (
     <section className="contact" id="contato">
       <div className="contact-content">
-        <div className="section-topline"><span>04 / CONTATO</span><span>VAMOS CONVERSAR</span></div>
+        <div className="section-topline"><span>05 / CONTATO</span><span>VAMOS CONVERSAR</span></div>
         <div className="contact-header">
           <h2>Vamos Trabalhar <em>Juntos?</em></h2>
           <p>

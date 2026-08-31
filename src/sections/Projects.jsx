@@ -115,7 +115,7 @@ export default function Projects() {
 
   return (
     <section className="projects" id="projetos">
-      <div className="section-topline"><span>03 / SELEÇÃO</span><span>06 PROJETOS</span></div>
+      <div className="section-topline"><span>04 / SELEÇÃO</span><span>06 PROJETOS</span></div>
       <h2>Meus <em>Projetos</em></h2>
       <p className="projects-subtitle">
         Alguns dos projetos que desenvolvi para demonstrar minhas habilidades e paixão por tecnologia

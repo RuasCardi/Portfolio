@@ -36,14 +36,30 @@ export default function About() {
       <div className="about-content">
         <div className="about-text">
           <p>
-            Sou <strong>Guilherme Ruas</strong>, desenvolvedor Full Stack apaixonado por tecnologia
-            e soluções criativas. Tenho experiência em desenvolvimento web moderno,
-            sempre buscando as melhores práticas e tecnologias mais atuais do mercado.
+            Sou Desenvolvedor Full Stack com experiência prática no desenvolvimento e evolução de aplicações web,
+            atuando desde a construção de interfaces até APIs, integrações e banco de dados.
           </p>
           <p>
-            Minha missão é criar experiências digitais incríveis, combinando design 
-            elegante com código limpo e performático. Acredito que a tecnologia deve 
-            ser acessível e resolver problemas reais das pessoas.
+            Tenho experiência com <strong>React, JavaScript, Node.js, Python, PHP, SQL, REST APIs e Frappe Framework</strong>,
+            além de contato com <strong>Docker, Git, Supabase, PostgreSQL, MariaDB e serviços de cloud</strong>.
+            Atuo na criação de sistemas, automações e soluções voltadas para necessidades reais de negócio,
+            buscando sempre equilibrar funcionalidade, organização e facilidade de manutenção.
+          </p>
+          <p>
+            Ao longo dos meus projetos, desenvolvi aplicações para diferentes cenários, incluindo
+            <strong> sistemas de gestão, ERP, automações, integrações com APIs, plataformas financeiras e ferramentas web</strong>.
+            Também tenho experiência trabalhando com análise e resolução de problemas, manutenção de sistemas existentes
+            e implementação de novas funcionalidades.
+          </p>
+          <p>
+            Gosto de transformar problemas em soluções práticas e tenho como principais características a
+            <strong> capacidade de aprendizado rápido, pensamento analítico e autonomia para entender uma necessidade
+            e transformar a ideia em uma solução funcional</strong>.
+          </p>
+          <p>
+            Atualmente, busco oportunidades como <strong>Desenvolvedor Full Stack, Backend ou Frontend</strong>,
+            em ambientes onde eu possa contribuir tecnicamente, evoluir profissionalmente e participar da construção
+            de produtos e soluções de impacto.
           </p>
         </div>
         
