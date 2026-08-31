@@ -40,10 +40,11 @@ export default function Contact() {
   ];
 
   return (
-    <section className="contact">
+    <section className="contact" id="contato">
       <div className="contact-content">
+        <div className="section-topline"><span>04 / CONTATO</span><span>VAMOS CONVERSAR</span></div>
         <div className="contact-header">
-          <h2>Vamos Trabalhar Juntos?</h2>
+          <h2>Vamos Trabalhar <em>Juntos?</em></h2>
           <p>
             Estou sempre aberto a novos desafios e oportunidades. 
             Entre em contato comigo e vamos transformar suas ideias em realidade!

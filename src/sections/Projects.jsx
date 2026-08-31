@@ -114,8 +114,9 @@ export default function Projects() {
   };
 
   return (
-    <section className="projects">
-      <h2>Meus Projetos</h2>
+    <section className="projects" id="projetos">
+      <div className="section-topline"><span>03 / SELEÇÃO</span><span>06 PROJETOS</span></div>
+      <h2>Meus <em>Projetos</em></h2>
       <p className="projects-subtitle">
         Alguns dos projetos que desenvolvi para demonstrar minhas habilidades e paixão por tecnologia
       </p>
@@ -127,7 +128,7 @@ export default function Projects() {
               <h3>{project.title}</h3>
               <div 
                 className="project-status"
-                style={{ backgroundColor: getStatusColor(project.status) }}
+                style={{ color: getStatusColor(project.status) }}
               >
                 {project.status}
               </div>
@@ -136,7 +137,7 @@ export default function Projects() {
             <p className="project-description">{project.description}</p>
             
             <div className="project-tech">
-              <h4>Tecnologias:</h4>
+              <h4>Stack</h4>
               <div className="tech-icons">
                 {project.technologies.map((tech, index) => (
                   <div 
@@ -158,7 +159,7 @@ export default function Projects() {
                 rel="noopener noreferrer"
                 className="project-link github-link"
               >
-                <FaGithub /> GitHub
+                <FaGithub /> Código <FaExternalLinkAlt />
               </a>
               {project.demo && (
                 <a 

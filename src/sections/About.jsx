@@ -30,8 +30,9 @@ export default function About() {
   ];
 
   return (
-    <section className="about">
-      <h2>Sobre Mim</h2>
+    <section className="about" id="sobre">
+      <div className="section-topline"><span>02 / SOBRE</span><span>FULL STACK</span></div>
+      <h2>Sobre <em>Mim</em></h2>
       <div className="about-content">
         <div className="about-text">
           <p>
@@ -47,7 +48,7 @@ export default function About() {
         </div>
         
         <div className="skills-section">
-          <h3>Tecnologias & Ferramentas</h3>
+          <div className="skills-heading"><h3>Tecnologias & Ferramentas</h3><span>10 ferramentas</span></div>
           <div className="skills-grid">
             {skills.map((skill, index) => (
               <div key={index} className="skill-card">
